@@ -17,4 +17,10 @@ initial
     #5 {cin,b,a}=3'b000;
     #5 {cin,b,a}=3'b001;
     #5 {cin,b,a}=3'b010;
+    #5 {cin,b,a}=3'b011;
+    #5 {cin,b,a}=3'b100;
+    #5 {cin,b,a}=3'b101;
+    #5 {cin,b,a}=3'b110;
+    #5 {cin,b,a}=3'b111;
    end
+endmodule
