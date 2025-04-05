@@ -2,7 +2,7 @@
 
 module tb_full_adder();
 reg a,b,cin;
-wie sum,cout;
+wire sum,cout;
 
 full_adder uut(
     .a(a),

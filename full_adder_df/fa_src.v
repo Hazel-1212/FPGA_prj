@@ -1,8 +1,8 @@
 module full_adder(
-    input [1:0] a,
-    input [1:0] b,
+    input [3:0] a,
+    input [3:0] b,
     input cin,
-    output [1:0] sum,
+    output [3:0] sum,
     output cout
 );
 
