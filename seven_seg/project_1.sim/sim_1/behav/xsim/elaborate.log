@@ -1,0 +1,26 @@
+Vivado Simulator v2023.2
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.2/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot tb_top_an_cnt_dgt_disp_behav xil_defaultlib.tb_top_an_cnt_dgt_disp xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+Completed static elaboration
+Starting simulation data flow analysis
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 1. Module top_an_cnt_dgt_disp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 176. Module an_ctrl(PERIOD_1S=28'b011000011010100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 55. Module svn_dcdr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 126. Module cnt(PERIOD_1s=28'b0100110001001011010000000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 1. Module top_an_cnt_dgt_disp doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 176. Module an_ctrl(PERIOD_1S=28'b011000011010100000) doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 55. Module svn_dcdr doesn't have a timescale but at least one module in design has a timescale.
+WARNING: [XSIM 43-4099] "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" Line 126. Module cnt(PERIOD_1s=28'b0100110001001011010000000) doesn't have a timescale but at least one module in design has a timescale.
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.an_ctrl(PERIOD_1S=28'b0110000110...
+Compiling module xil_defaultlib.svn_dcdr
+Compiling module xil_defaultlib.cnt(PERIOD_1s=28'b01001100010010...
+Compiling module xil_defaultlib.top_an_cnt_dgt_disp
+Compiling module xil_defaultlib.tb_top_an_cnt_dgt_disp
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot tb_top_an_cnt_dgt_disp_behav

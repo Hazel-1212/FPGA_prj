@@ -1,36 +1,44 @@
-module tb_sequence_generator;
+`timescale 1ns / 1ps
 
-    // Inputs
-    reg clk;                // Input clock (100 MHz)
-    
-    // Outputs
-    wire [6:0] seg;        // 7-segment display output (7 segments)
+module tb_top_an_cnt_dgt_disp;
 
-    // Instantiate the sequence generator (Device Under Test)
-    sequence_generator uut (
-        .clk(clk),
-        .seg(seg)
+    reg sys_clk;
+    reg sys_rst_n;
+    wire CA, CB, CC, CD, CE, CF, CG, DP;
+    wire [7:0] AN;
+
+    // Instantiate the DUT (Device Under Test)
+    top_an_cnt_dgt_disp dut (
+        .sys_clk(sys_clk),
+        .sys_rst_n(sys_rst_n),
+        .CA(CA),
+        .CB(CB),
+        .CC(CC),
+        .CD(CD),
+        .CE(CE),
+        .CF(CF),
+        .CG(CG),
+        .DP(DP),
+        .AN(AN)
     );
 
-    // Clock generation: 10 ns period clock (100 MHz)
-    always begin
-        #5 clk = ~clk; // Toggle clock every 5ns for a 100 MHz clock
-    end
+    // Clock Generation: 100MHz -> 10ns period
+    always #5 sys_clk = ~sys_clk;
 
     initial begin
-        // Initialize signals
-        clk = 0;
+        // Initial values
+        sys_clk = 0;
+        sys_rst_n = 0;
 
-        // Wait for some time to simulate the behavior (let the counter run)
-        #1000000;  // Wait for approximately 10 seconds (for a 1 Hz output)
+        // Reset pulse: hold low for 100ns
+        #100;
+        sys_rst_n = 1;
 
-        // Finish simulation
-        $finish;
-    end
-
-    // Display output on simulation console
-    initial begin
-        $monitor("Time = %t, seg = %b", $time, seg);
+        // Run simulation for a few milliseconds to observe display behavior
+        #500000;  // adjust based on your counter speed
+        $stop;
     end
 
 endmodule
+
+

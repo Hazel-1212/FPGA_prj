@@ -1,0 +1,7 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top_an_cnt_dgt_disp
+INFO: [VRFC 10-311] analyzing module svn_dcdr
+INFO: [VRFC 10-311] analyzing module cnt
+INFO: [VRFC 10-311] analyzing module an_ctrl
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/Users/achie/FPGA_prj/seven_seg/tb_seven_seg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_top_an_cnt_dgt_disp
