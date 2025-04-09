@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/03 Digital Lab/Lab05/seven_seg_display/seven_seg_display.sim/sim_1/behav/xsim/glbl.v,1697210496,verilog,,,,glbl,,,,,,,,
+C:/03 Digital Lab/Lab05/seven_seg_display/seven_seg_display.srcs/sim_1/new/tb_ssd.v,1744169842,verilog,,,,tb_top_an_cnt_dgt_disp,,,,,,,,
+C:/03 Digital Lab/Lab05/seven_seg_display/seven_seg_display.srcs/sources_1/new/ssd_src.v,1744112101,verilog,,C:/03 Digital Lab/Lab05/seven_seg_display/seven_seg_display.srcs/sim_1/new/tb_ssd.v,,bcd_cnt;freq_dv;svn_dcdr;top_an_cnt_dgt_disp,,,,,,,,

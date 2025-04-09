@@ -1,7 +1,0 @@
-0.7
-2020.2
-Oct 13 2023
-20:47:58
-C:/Users/achie/FPGA_prj/seven_seg/project_1.sim/sim_1/behav/xsim/glbl.v,1697210496,verilog,,,,glbl,,,,,,,,
-C:/Users/achie/FPGA_prj/seven_seg/seven_seg_src.v,1743914407,verilog,,C:/Users/achie/FPGA_prj/seven_seg/tb_seven_seg.v,,an_ctrl;cnt;svn_dcdr;top_an_cnt_dgt_disp,,,,,,,,
-C:/Users/achie/FPGA_prj/seven_seg/tb_seven_seg.v,1743919482,verilog,,,,tb_top_an_cnt_dgt_disp,,,,,,,,

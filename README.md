@@ -1,2 +1,6 @@
 # FPGA_prj
-For 113-2 Digital Lab. Practice building circuits with Verilog. 
+Course: 113-2 Digital Lab. 
+Objective: 
+1.Practice building circuits with Verilog. 
+
+2.Implement the circuit to the hardware Nexys4 DDR.
