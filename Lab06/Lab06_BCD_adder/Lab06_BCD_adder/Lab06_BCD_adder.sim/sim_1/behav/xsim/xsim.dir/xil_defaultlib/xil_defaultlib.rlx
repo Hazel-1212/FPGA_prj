@@ -1,0 +1,10 @@
+0.7
+2020.2
+Oct 14 2022
+05:07:14
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.sim/sim_1/behav/xsim/glbl.v,1665704903,verilog,,,,glbl,,,,,,,,
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sim_1/new/adder_sim.v,1680169954,verilog,,,,adder_sim,,,,,,,,
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/adder.v,1681781495,verilog,,/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/concurrent_display.v,,adder,,,,,,,,
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/concurrent_display.v,1681775969,verilog,,/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/keypad.v,,concurrent_display,,,,,,,,
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/keypad.v,1681782715,verilog,,/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/summation_logic.v,,keypad,,,,,,,,
+/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sources_1/new/summation_logic.v,1681782513,verilog,,/home/murloc/workspace/labs/nycu/DD/Lab06/Lab06_BCD_adder/Lab06_BCD_adder.srcs/sim_1/new/adder_sim.v,,summation_logic,,,,,,,,
