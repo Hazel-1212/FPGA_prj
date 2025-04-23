@@ -1,0 +1,14 @@
+#-----------------------------------------------------------
+# Vivado v2023.2 (64-bit)
+# SW Build 4029153 on Fri Oct 13 20:14:34 MDT 2023
+# IP Build 4028589 on Sat Oct 14 00:45:43 MDT 2023
+# SharedData Build 4025554 on Tue Oct 10 17:18:54 MDT 2023
+# Start of session at: Wed Apr 23 21:30:12 2025
+# Process ID: 19392
+# Current directory: C:/03 Digital Lab/Lab08/Lab08-3_sequence_detector/seq_detector/seq_detector.runs/impl_1
+# Command line: vivado.exe -log seq_detector.vdi -applog -product Vivado -messageDb vivado.pb -mode batch -source seq_detector.tcl -notrace
+# Log file: C:/03 Digital Lab/Lab08/Lab08-3_sequence_detector/seq_detector/seq_detector.runs/impl_1/seq_detector.vdi
+# Journal file: C:/03 Digital Lab/Lab08/Lab08-3_sequence_detector/seq_detector/seq_detector.runs/impl_1\vivado.jou
+# Running On: HazelTheCat, OS: Windows, CPU Frequency: 2918 MHz, CPU Physical cores: 10, Host memory: 16788 MB
+#-----------------------------------------------------------
+source seq_detector.tcl -notrace

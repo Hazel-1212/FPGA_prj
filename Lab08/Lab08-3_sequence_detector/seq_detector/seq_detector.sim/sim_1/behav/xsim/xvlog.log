@@ -1,0 +1,4 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/03 Digital Lab/Lab08/Lab08-3_sequence_detector/seq_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module seq_detector
+INFO: [VRFC 10-2263] Analyzing Verilog file "C:/03 Digital Lab/Lab08/Lab08-3_sequence_detector/seq_detector/seq_detector.srcs/sim_1/new/tb_seq_detector.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_seq_detector
