@@ -1,0 +1,7 @@
+0.7
+2020.2
+Oct 13 2023
+20:47:58
+C:/03 Digital Lab/Lab05/4-bit_adder/4-bit_adder.sim/sim_1/behav/xsim/glbl.v,1697210496,verilog,,,,glbl,,,,,,,,
+C:/03 Digital Lab/Lab05/4-bit_adder/4-bit_adder.srcs/sim_1/new/tb_top_adder.v,1744204716,verilog,,,,tb_top_adder,,,,,,,,
+C:/03 Digital Lab/Lab05/4-bit_adder/4-bit_adder.srcs/sources_1/new/fa_src.v,1744205446,verilog,,C:/03 Digital Lab/Lab05/4-bit_adder/4-bit_adder.srcs/sim_1/new/tb_top_adder.v,,full_adder;half_adder;top_adder,,,,,,,,
