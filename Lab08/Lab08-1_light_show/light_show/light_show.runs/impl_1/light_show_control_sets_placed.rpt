@@ -1,0 +1,86 @@
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved. Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+---------------------------------------------------------------------------------------------------------------------------------------------
+| Tool Version : Vivado v.2023.2 (win64) Build 4029153 Fri Oct 13 20:14:34 MDT 2023
+| Date         : Wed Apr 23 16:54:29 2025
+| Host         : HazelTheCat running 64-bit major release  (build 9200)
+| Command      : report_control_sets -verbose -file light_show_control_sets_placed.rpt
+| Design       : light_show
+| Device       : xc7a100t
+---------------------------------------------------------------------------------------------------------------------------------------------
+
+Control Set Information
+
+Table of Contents
+-----------------
+1. Summary
+2. Histogram
+3. Flip-Flop Distribution
+4. Detailed Control Set Information
+
+1. Summary
+----------
+
++----------------------------------------------------------+-------+
+|                          Status                          | Count |
++----------------------------------------------------------+-------+
+| Total control sets                                       |     8 |
+|    Minimum number of control sets                        |     8 |
+|    Addition due to synthesis replication                 |     0 |
+|    Addition due to physical synthesis replication        |     0 |
+| Unused register locations in slices containing registers |    27 |
++----------------------------------------------------------+-------+
+* Control sets can be merged at opt_design using control_set_merge or merge_equivalent_drivers
+** Run report_qor_suggestions for automated merging and remapping suggestions
+
+
+2. Histogram
+------------
+
++--------------------+-------+
+|       Fanout       | Count |
++--------------------+-------+
+| Total control sets |     8 |
+| >= 0 to < 4        |     4 |
+| >= 4 to < 6        |     0 |
+| >= 6 to < 8        |     0 |
+| >= 8 to < 10       |     3 |
+| >= 10 to < 12      |     0 |
+| >= 12 to < 14      |     0 |
+| >= 14 to < 16      |     0 |
+| >= 16              |     1 |
++--------------------+-------+
+* Control sets can be remapped at either synth_design or opt_design
+
+
+3. Flip-Flop Distribution
+-------------------------
+
++--------------+-----------------------+------------------------+-----------------+--------------+
+| Clock Enable | Synchronous Set/Reset | Asynchronous Set/Reset | Total Registers | Total Slices |
++--------------+-----------------------+------------------------+-----------------+--------------+
+| No           | No                    | No                     |              42 |           13 |
+| No           | No                    | Yes                    |               0 |            0 |
+| No           | Yes                   | No                     |               3 |            3 |
+| Yes          | No                    | No                     |               0 |            0 |
+| Yes          | No                    | Yes                    |               0 |            0 |
+| Yes          | Yes                   | No                     |              24 |            9 |
++--------------+-----------------------+------------------------+-----------------+--------------+
+
+
+4. Detailed Control Set Information
+-----------------------------------
+
++----------------+--------------------+------------------+------------------+----------------+--------------+
+|  Clock Signal  |    Enable Signal   | Set/Reset Signal | Slice Load Count | Bel Load Count | Bels / Slice |
++----------------+--------------------+------------------+------------------+----------------+--------------+
+|  clk_IBUF_BUFG |                    | blue_i_1_n_0     |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                    | green_i_1_n_0    |                1 |              1 |         1.00 |
+|  clk_IBUF_BUFG |                    | red_i_1_n_0      |                1 |              1 |         1.00 |
+|  CLK           |                    |                  |                2 |              2 |         1.00 |
+|  CLK           | dir_reg[0]_inv_n_0 | clear            |                3 |              8 |         2.67 |
+|  CLK           | p_1_out            | blue1_i_2_n_0    |                3 |              8 |         2.67 |
+|  CLK           | in[1]              | RSTB             |                3 |              8 |         2.67 |
+|  clk_IBUF_BUFG |                    |                  |               11 |             40 |         3.64 |
++----------------+--------------------+------------------+------------------+----------------+--------------+
+
+
