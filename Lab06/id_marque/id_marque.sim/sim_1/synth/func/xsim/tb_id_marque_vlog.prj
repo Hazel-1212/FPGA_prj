@@ -1,0 +1,7 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"tb_id_marque_func_synth.v" \
+"../../../../../id_marque.srcs/sim_1/new/tb_id_marque.v" \
+
+# Do not sort compile order
+nosort
